@@ -33,8 +33,8 @@
    },
    "outputs": [],
    "source": [
-    "path='/home/rx78rx91/train.json'\n",
-    "test_path='/home/rx78rx91/test.json'\n",
+    "path='/home/train.json'\n",
+    "test_path='/home/test.json'\n",
     "\n",
     "list_room=pd.read_json(path)\n",
     "list_test=pd.read_json(test_path)\n",
@@ -547,7 +547,7 @@
     "\n",
     "preds['listing_id'] = listing_id\n",
     "\n",
-    "preds.to_csv(\"/home/rx78rx91/resul9_ma_fea.csv\", index=None)"
+    "preds.to_csv(\"/home/result.csv\", index=None)"
    ]
   },
   {
